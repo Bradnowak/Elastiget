@@ -4,6 +4,7 @@ from time import sleep
 
 print("Pulling down prerequisite modules...")
 system("pip3 install elasticsearch --user")
+system("pip3 install tqdm --user")
 
 from elasticsearch import Elasticsearch
 

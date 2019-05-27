@@ -1,3 +1,3 @@
 # Elastiget
 
-Python wrapper for getting data out of elastic and storing it locally.  
+Python wrapper for getting data out of a remote elastic instance and storing it locally.  

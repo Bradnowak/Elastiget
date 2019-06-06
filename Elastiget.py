@@ -125,7 +125,6 @@ def main_menu(es):
         exit()
     else:
         print("Invalid input.")
-        sleep(2)
         main_menu(es)
 
     return _topic, _q_string, _index

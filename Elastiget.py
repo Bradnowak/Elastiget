@@ -1,18 +1,7 @@
-from os import system, name
 import json
-from time import sleep
-
-
-#print("Pulling down prerequisite modules...")
-#system("pip3 install elasticsearch --user")
-#system("pip3 install tqdm --user")
-
 from elasticsearch import Elasticsearch
 
 connected = False
-#ip = '192.168.1.172'
-#port = '9200'
-
 
 def clear():
     if name == 'nt':
